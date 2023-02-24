@@ -14,6 +14,22 @@
     animation: spin 2s linear infinite;
 }
 
+.loading-result {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.loading-circle-result {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid #f2f2f2;
+    border-top-color: #fb7474;
+    animation: spin 2s linear infinite;
+}
+
 @keyframes spin {
     to {
         transform: rotate(360deg);
@@ -38,17 +54,20 @@
     margin-bottom: 30px;
     background-color: #ebb9b9;
 }
-#calculate{
+
+#calculate {
     background-color: #ebb9b9;
     border: 1px solid #e14a4a;
     color: #a02222;
 }
-#calculate:focus{
+
+#calculate:focus {
     background-color: #e14a4a;
     border: 1px solid #ebb9b9;
     color: #ebb9b9;
 }
-#calculate:hover{
+
+#calculate:hover {
     background-color: #e14a4a;
     border: 1px solid #ebb9b9;
     color: #ebb9b9;
@@ -59,6 +78,7 @@ p {
     font-size: 18px;
     margin-bottom: 20px;
 }
+
 .input-container {
     display: flex;
     flex-direction: column;
@@ -81,6 +101,7 @@ input {
     border: 1px solid rgba(181, 18, 18, 0.245);
     /* width: 100%; */
 }
+
 .heart img {
     width: 62px;
     height: 63px;
@@ -89,7 +110,8 @@ input {
 #result {
     border: 2px solid rgb(245, 205, 205);
     background-color: #f8b8b8;
-    border-radius:10px ;
+    font-weight: bolder;
+    border-radius: 10px;
     font-size: 24px;
     text-align: center;
     margin-top: 30px;
@@ -112,4 +134,30 @@ input {
 
 .additional-btns {
     display: flex;
+}
+
+@media only screen and (min-width:370px) and (max-width:500px) {
+    .container {
+        max-width: 350px;
+        height: 447px;
+        /* margin-top: 10px; */
+    }
+
+    .mt-2 {
+        margin-top: 5.5rem !important;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    input {
+        font-size: 16px;
+        height: 39px;
+    }
+
+    .heart img {
+        width: 59px;
+        height: 59px;
+    }
 }
