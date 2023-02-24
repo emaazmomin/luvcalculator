@@ -23,7 +23,12 @@ btn.addEventListener('click', e => {
         </div>`
     }
     else {
-        let link = `https://emaazmomin.github.io/luvcalculator/`;
+        let link = `
+        
+        
+        
+        
+        https://emaazmomin.github.io/luvcalculator/`;
         let load_result = document.getElementsByClassName('loading-result');
         load_result[0].style.display = 'flex';
         window.addEventListener('load', () => {
@@ -61,7 +66,9 @@ btn.addEventListener('click', e => {
             document.getElementById('shr-btn').innerHTML = ` <hr>
             <h5>Share with your loved one's💗</h5>
             <a class="btn btn-outline-success"
-                href="whatsapp://send?text=${encodeURIComponent(message)}&link=${encodeURIComponent(link)}"
+                href="whatsapp://send?text=${encodeURIComponent(message)}
+                
+                ${encodeURIComponent(link)}"
                 target="_blank" rel="noopener noreferrer"><i class="fa fa-share"></i><i class="bi bi-share"></i><svg
                     xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-whatsapp" viewBox="0 0 16 16">
