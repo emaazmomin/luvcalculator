@@ -25,8 +25,8 @@ btn.addEventListener('click', e => {
     else {
         let load_result = document.getElementsByClassName('loading-result');
         load_result[0].style.display = 'flex';
-        window.addEventListener('load',e=>{
-            load_result[0].style.display = 'none'
+        window.addEventListener('load',()=>{
+            load_result[0].style.display = 'none';
         }) 
         setTimeout(() => {
 

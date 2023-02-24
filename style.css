@@ -18,16 +18,6 @@
     display: none;
     justify-content: center;
     align-items: center;
-    /* height: 100vh; */
-}
-
-.loading-circle-result {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 3px solid #f2f2f2;
-    border-top-color: #fb7474;
-    animation: spin 2s linear infinite;
 }
 
 @keyframes spin {
@@ -139,7 +129,7 @@ input {
 @media only screen and (min-width:370px) and (max-width:500px) {
     .container {
         max-width: 350px;
-        height: 447px;
+        /* height: 362px; */
         /* margin-top: 10px; */
     }
 
