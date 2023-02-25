@@ -1,6 +1,6 @@
 const link = `
 
-https://emaazmomin.github.io/luvcalculator/`;
+https://instalovecalculate.netlify.app/`;
 const subject = 'Just calculated my love'
 // To hide animation after loading window:
 let load = document.getElementsByClassName('loading-container');
