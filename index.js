@@ -1,6 +1,6 @@
 const link = `
 
-https://instalovecalculate.netlify.app/`;
+https://instalovecalculator.netlify.app/`;
 const subject = 'Just calculated my love'
 // To hide animation after loading window:
 let load = document.getElementsByClassName('loading-container');
