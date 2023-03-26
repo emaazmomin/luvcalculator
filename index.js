@@ -1,4 +1,4 @@
-const link = `\nTry Your's\n\nhttps://instalovecalculator.netlify.app/`;
+const link = `\n\nTry Your's:\nhttps://instalovecalculator.netlify.app/`;
 const subject = 'Just calculated my love'
 // To hide animation after loading window:
 let load = document.getElementsByClassName('loading-container');
